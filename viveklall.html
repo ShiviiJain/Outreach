@@ -22,7 +22,7 @@
     overflow: auto; /* Ensures the container encompasses floated elements */
   }
   .header {
-    background-color: #1a73e8;
+    background-color: #6ea7f2;
     color: #fff;
     padding: 20px;
     border-top-left-radius: 8px;
@@ -37,13 +37,14 @@
   }
 
   .header h1 {
-    font-size: 28px; /* Increased font size for heading */
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
+    font-size: 32px;
     margin: 0;
   }
   .body {
     padding: 20px;
-    text-align: center; /* Center aligns text for a more modern look */
+    text-align: justify; /* Center aligns text for a more modern look */
   }
   .body img {
     max-width: 100%;
@@ -56,7 +57,7 @@
   }
 
   .button {
-    background-color: #1a73e8;
+    background-color: #6ea7f2;
     color: #fff;
     padding: 15px 30px;
     font-weight: 600;
@@ -65,9 +66,13 @@
     display: inline-block;
     transition: background-color 0.2s;
     font-size: 18px; /* Larger font size for the button */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    transition: all 0.3s;
   }
   .button:hover {
-    background-color: #2878ff;
+    background-color: #557cbf;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.24);
   }
   .footer {
     background-color: #202124;
